@@ -1,0 +1,113 @@
+commit 0bc964d784ec869261c5afe1f963092066c697b8
+Author: Sampsa Ollikainen <sampsa.ollikainen@gmail.com>
+Date:   Tue Mar 22 17:28:01 2022 +0200
+
+    poistettu file1 ja uudelleennimetty file2
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 487933491536a9849000b254d14476d383c34d35
+Author: Sampsa Ollikainen <sampsa.ollikainen@gmail.com>
+Date:   Tue Mar 22 17:25:50 2022 +0200
+
+    luotu hakemisto ja file1,file2 ja file3
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 4f4b0d37349f1a96c71736d36a2d4b53bb32045a
+Author: Sampsa Ollikainen <sampsa.ollikainen@gmail.com>
+Date:   Tue Mar 22 17:21:08 2022 +0200
+
+    muutettu eka.txt ja kolmas.txt
+
+ eka.txt    |  43 +------------------------
+ kolmas.txt | 104 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 105 insertions(+), 42 deletions(-)
+
+commit 14d7ccf8188a8f25a670510a7e3d1a51c5025d6f
+Author: Sampsa Ollikainen <sampsa.ollikainen@gmail.com>
+Date:   Tue Mar 22 17:17:20 2022 +0200
+
+    tiedosto.txt uudelleennimetty eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 7712851398cd054e4f40c6025404aa9c6798abc9
+Author: Sampsa Ollikainen <sampsa.ollikainen@gmail.com>
+Date:   Tue Mar 22 17:16:07 2022 +0200
+
+    poistettu toinen.txt
+
+ toinen.txt | 3 ---
+ 1 file changed, 3 deletions(-)
+
+commit 31f7a7e7949055f87d99fd25ebb27684f89ff388
+Author: Sampsa Ollikainen <sampsa.ollikainen@gmail.com>
+Date:   Tue Mar 22 17:13:32 2022 +0200
+
+    tiedostoa muutettu
+
+ tiedosto.txt | 64 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 64 insertions(+)
+
+commit 41aec307d55bf76e0e4a3d65775eebe52501fa31
+Author: Sampsa Ollikainen <sampsa.ollikainen@gmail.com>
+Date:   Tue Mar 22 17:11:36 2022 +0200
+
+    tekstitiedosto muutettu
+
+ tiedosto.txt | 104 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 101 insertions(+), 3 deletions(-)
+
+commit 665ee35512f4a600bda341daf2cba7a91b872791
+Author: Sampsa Ollikainen <sampsa.ollikainen@gmail.com>
+Date:   Tue Mar 22 16:59:49 2022 +0200
+
+    Uusi hakemisto stuff ja testitiedosto
+
+ stuff/testi.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 214f7a6aa4f0792baae7e0e0b7aecf91f2776811
+Author: Sampsa Ollikainen <sampsa.ollikainen@gmail.com>
+Date:   Tue Mar 22 16:58:51 2022 +0200
+
+    Muutokset 2. ja 3. tiedostoon
+
+ kolmas.txt | 3 +++
+ toinen.txt | 3 +++
+ 2 files changed, 6 insertions(+)
+
+commit 850220c0a2fd4d64d05dc732d57fa1c3c038b2c0
+Author: Sampsa Ollikainen <sampsa.ollikainen@gmail.com>
+Date:   Tue Mar 22 16:57:43 2022 +0200
+
+    kolmas tiedosto lisätty
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 2427179dc38857bf0e08fef168c682c35200f5d4
+Author: Sampsa Ollikainen <sampsa.ollikainen@gmail.com>
+Date:   Tue Mar 22 16:52:04 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 3 +++
+ toinen.txt   | 0
+ 2 files changed, 3 insertions(+)
+
+commit d750b5beaeed72dd4a6a875767bf4afa3bd27b8f
+Author: Sampsa Ollikainen <sampsa.ollikainen@gmail.com>
+Date:   Tue Mar 22 16:47:44 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
