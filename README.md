@@ -12,4 +12,5 @@ Muutos
 
 ### Viikko 2
 [Vaatimuusmäärittely](https://github.com/sampsaol/ot-harjoitustyo/blob/main/dokumentaatio/vaatimusmaarittely.md)
+
 [Työaikakirjanpito](https://github.com/sampsaol/ot-harjoitustyo/blob/main/dokumentaatio/tyoaikakirjanpito.md)
