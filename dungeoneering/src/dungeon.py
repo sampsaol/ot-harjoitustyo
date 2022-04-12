@@ -3,7 +3,6 @@ from random import randint
 
 class Game:
     def __init__(self):
-        pygame.init()
 
         ### Setting up all the basic variables we need
         self.load_pictures()
@@ -282,8 +281,11 @@ class Game:
           #      self.map[object[0]][object[1]] = 4
            #     self.monster_list.remove(object)
 
+
+def main():
+    pygame.init()
 if __name__ == "__main__":
-    game = Game()
+    main()
 
 
             
