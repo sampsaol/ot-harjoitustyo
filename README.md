@@ -27,3 +27,8 @@ Muutos
 [Tehtävä 4](https://github.com/sampsaol/ot-harjoitustyo/blob/main/laskarit/viikko3/laajempi_sekvenssikaavio.md)
 
 3 viikon harjoitustyön tekeminen jäi lähes kokonaan tekemättä yllättävien kiireiden ja huonon aikatauluttamisen takia. Teen seuraavalla viikolla 3 viikon harjoitustyötehtävät ilman pisteitä.
+
+
+### Viikko 4
+
+Harjoitustyön kanssa edetty, mutta jäi silti paljon oleellista uupumaan mm. kaikki testaukseen liittyvät asiat.
