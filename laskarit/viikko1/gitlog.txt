@@ -96,3 +96,6 @@ Date:   Wed Nov 2 12:29:52 2022 +0200
 
  tiedosto.txt | 0
  1 file changed, 0 insertions(+), 0 deletions(-)
+
+
+pieni muutos
