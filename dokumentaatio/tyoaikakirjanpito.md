@@ -2,5 +2,5 @@
 
 | päivä | aika | mitä tein |
 | :----:|:-----| :-----|
-| 15.11. | 3 | pakolliset tehtävä, projektin idean keksiminen ja dokumentaation luominen |
-| yht | 3 | |
+| 15.11. | 1 | projektin idean keksiminen ja dokumentaation luominen |
+| yht | 1 | |
