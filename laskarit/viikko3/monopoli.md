@@ -6,5 +6,7 @@ classDiagram
   Pelaaja "1" -- "1" Pelinappula
   Pelinappula "2..8" -- "1" Peliruutu
   Pelilauta "1" -- "40" Peliruutu
-  Peliruutu "1" -- "1" Seuraava peliruutu
+  class Peliruutu{
+    seuraava_ruutu
+  }
  ```
