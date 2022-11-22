@@ -10,7 +10,7 @@ classDiagram
   Peliruutu "1" <|-- "1" Vankila
   Peliruutu "1" <|-- "1" Sattuma
   Peliruutu "1" <|-- "1" Yhteismaa
-  Peliruutu "1" <|-- "1" Juna-asema
+  Peliruutu "1" <|-- "1" Asema
   Peliruutu "1" <|-- "1" Laitos
   Peliruutu "1" <|-- "1" Katu
   Peli "1" ..> "1" Aloitusruutu
