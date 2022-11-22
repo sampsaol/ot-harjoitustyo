@@ -77,4 +77,5 @@ classDiagram
   class Korttipakka{
     korttipakan_tyyppi
     kortit
+  }
 ```
