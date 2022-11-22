@@ -73,4 +73,4 @@ classDiagram
     talojen_maara
     talojen_tyyppi
   }
-```mermaid
+```
