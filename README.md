@@ -1,12 +1,14 @@
 # Ohjelmistotekniikka harjoitustyö
-## Tehtävät
-## Viikko 1
-[komentorivi.txt](https://github.com/sampsaol/ot-harjoitustyo/blob/1a20614da466ae1db0e519af58862fe5211642d3/laskarit/viikko1/komentorivi.txt)
+## Skyrim Character Generator
 
-[gitlog.txt](https://github.com/sampsaol/ot-harjoitustyo/blob/1a20614da466ae1db0e519af58862fe5211642d3/laskarit/viikko1/gitlog.txt)
+Sovelluksen on tarkoitus olla tukena The Elder Scrolls V: Skyrim pelin pelattavuuden parantamisessa. Sovellus generoi satunnaisen pelihahmon, jonka mukaan Skyrimiä tulee pelata. Sovellus myös personoi valitulle hahmolle tässä vaiheessa yhden pää "questlinen", joka tukee luodun hahmon vahvuuksia. Tällä hetkellä käyttäjä voi generoida itsellensä satunnaisia hahmoja ja tulostaa listan generoiduista hahmoista.
 
-## Viikko 2
+### Huomioita
+Sovellus on testattu toimivan Python 3.8.10 tai uudemmalla versiolla.
 
-[Vaatimusmäärittely](https://github.com/sampsaol/ot-harjoitustyo/blob/40e4976f4abae5cce83bfe9cc0919c7d30207277/dokumentaatio/vaatimusmaarittely.md)
+### Dokumentaatio
+[Työaikakirjanpito](https://github.com/sampsaol/ot-harjoitustyo/blob/7494ab5213f6d2eb892a2f86868066a86a321603/dokumentaatio/tyoaikakirjanpito.md)
+[Vaatimusmäärittely](https://github.com/sampsaol/ot-harjoitustyo/blob/7494ab5213f6d2eb892a2f86868066a86a321603/dokumentaatio/vaatimusmaarittely.md)
 
-[Työaikakirjanpito](https://github.com/sampsaol/ot-harjoitustyo/blob/449a136682acc7e1d6a5c8f83d4fcea48d9b7ec0/dokumentaatio/tyoaikakirjanpito.md)
+
+Lisäkommenttina kiireiden vuoksi en ehtinyt tällä viikolla toteuttamaan sovellukselle Unittestejä tai Invoke-tehtäviä, pahoittelut lisään ne ensiviikon tehtävien lisäksi ensiviikon deadlineen mennessä.
