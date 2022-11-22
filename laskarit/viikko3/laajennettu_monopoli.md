@@ -10,14 +10,18 @@ classDiagram
   Peliruutu "1" <|-- "1" Vankila
   Peliruutu "1" <|-- "1" Sattuma
   Peliruutu "1" <|-- "1" Yhteismaa
-  Peliruutu "1" <|-- "1" Asema
+  Peliruutu "1" <|-- "1" Juna_asema
   Peliruutu "1" <|-- "1" Laitos
   Peliruutu "1" <|-- "1" Katu
   Peli "1" ..> "1" Aloitusruutu
   Peli "1" ..> "1" Vankila
+  Pelaaja "1" -- "1" Rahatili
+  Sattuma "1" ..> "1" Korttipakka
+  Yhteismaa "1" ..> "1" Korttipakka
   class Peliruutu{
     seuraava_ruutu
     tyyppi
+    toiminnot()
   }
   class Peli{
     pelaaja_maara
@@ -31,7 +35,6 @@ classDiagram
   class Pelaaja{
     pelaajan_nimi
     nappula
-    rahamaara
   }
   class Rahatili{
     saldo
@@ -45,32 +48,33 @@ classDiagram
     numerot
   }
   class Aloitusruutu{
-    toiminto
+    aloitusruutu_toiminto()
     sijainti()
   }
   class Vankila{
-    toiminto
+    vankila_toiminto()
     sijainti()
   }
   class Sattuma{
-    korttipakka
-    toiminto
+    sattuma_toiminto()
   }
   class Yhteismaa{
-    korttipakka
-    toiminto
+    yhteismaa_toiminto()
   }
-  class Asema{
-    toiminto
+  class Juna_asema{
+    juna_asema_toiminto()
   }
   class Laitos{
-    toiminto
+    laitos_toiminto()
   }
   class Katu{
-    toiminto
     kadun_nimi
     omistaja
     talojen_maara
     talojen_tyyppi
+    katu_toiminto()
   }
+  class Korttipakka{
+    korttipakan_tyyppi
+    kortit
 ```
