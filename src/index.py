@@ -1,8 +1,12 @@
-from ui import UserInterface
+from ui.ui import UserInterface
 from command_io import ConsoleIO
+from character_service import CharacterService
+
 
 def main():
-    start_generator = UserInterface(ConsoleIO())
+    console = ConsoleIO()
+    service = CharacterService()
+    start_generator = UserInterface(console, service)
     start_generator.start()
 
 
