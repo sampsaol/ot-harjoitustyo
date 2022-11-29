@@ -15,6 +15,7 @@ class ConsoleIO:
         return retval
 
     def class_printout(self, race, playstyle, quest):
-        val = f"Your race will be {race} and your class will be {playstyle}. Your primary questline is {quest}"
+        val = f"Your race will be {race} and your \
+            class will be {playstyle}. Your primary questline is {quest}"
         print(val)
         return val
