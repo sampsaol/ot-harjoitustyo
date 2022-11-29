@@ -1,7 +1,7 @@
 # Ohjelmistotekniikka harjoitustyö
 ## Skyrim Character Generator
 
-Sovelluksen on tarkoitus olla tukena The Elder Scrolls V: Skyrim pelin pelattavuuden parantamisessa. Sovellus generoi satunnaisen pelihahmon, jonka mukaan Skyrimiä tulee pelata. Sovellus myös personoi valitulle hahmolle tässä vaiheessa yhden pää "questlinen", joka tukee luodun hahmon vahvuuksia. Tällä hetkellä käyttäjä voi generoida itsellensä satunnaisia hahmoja ja tulostaa listan generoiduista hahmoista.
+Sovelluksen on tarkoitus olla tukena The Elder Scrolls V: Skyrim pelin pelattavuuden parantamisessa. Sovellus generoi satunnaisen pelihahmon, jonka mukaan Skyrimiä tulee pelata. Sovellus myös personoi valitulle hahmolle tässä vaiheessa yhden pää "questlinen", joka tukee luodun hahmon vahvuuksia. Tällä hetkellä käyttäjä voi generoida itsellensä satunnaisia hahmoja ja tulostaa listan generoiduista hahmoista. Käyttäjä voi myös hakea neuvoja hänen generoimilleen hahmoille.
 
 ## Huomioita
 Sovellus on testattu toimivan Python 3.8.10 tai uudemmalla versiolla. Invoke puutteiden takia sovellus toimii tällä hetkellä esim. VSC kautta käyttäen suorittaen main.py tiedoston.
