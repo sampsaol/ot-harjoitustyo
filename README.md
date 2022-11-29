@@ -3,14 +3,48 @@
 
 Sovelluksen on tarkoitus olla tukena The Elder Scrolls V: Skyrim pelin pelattavuuden parantamisessa. Sovellus generoi satunnaisen pelihahmon, jonka mukaan Skyrimiä tulee pelata. Sovellus myös personoi valitulle hahmolle tässä vaiheessa yhden pää "questlinen", joka tukee luodun hahmon vahvuuksia. Tällä hetkellä käyttäjä voi generoida itsellensä satunnaisia hahmoja ja tulostaa listan generoiduista hahmoista.
 
-### Huomioita
+## Huomioita
 Sovellus on testattu toimivan Python 3.8.10 tai uudemmalla versiolla. Invoke puutteiden takia sovellus toimii tällä hetkellä esim. VSC kautta käyttäen suorittaen main.py tiedoston.
+
+## Käyttöohjeet
+
+- Asenna riippuvuudet komennolla
+
+```bash
+poetry install
+```
+- Käynnistä ohjelma komennolla
+
+```bash
+poetry run invoke start
+```
+
+- Käytettävissä olevat toiminnot
+
+```bash
+0: keskeyttää ohjelman suorituksen
+1: generoi pelihahmon
+2: tulostaa kaikki generoidut pelihahmot
+```
+
+## Muuta toiminnallisuutta
+
+- Testien suoritus
+
+```bash
+poetry run invoke test
+```
+- Testikattavuusraportti
+
+```bash
+poetry run invoke coverage-report
+```
 
 ### Dokumentaatio
 [Työaikakirjanpito](https://github.com/sampsaol/ot-harjoitustyo/blob/7494ab5213f6d2eb892a2f86868066a86a321603/dokumentaatio/tyoaikakirjanpito.md)
 
 [Vaatimusmäärittely](https://github.com/sampsaol/ot-harjoitustyo/blob/7494ab5213f6d2eb892a2f86868066a86a321603/dokumentaatio/vaatimusmaarittely.md)
 
+[Changelog](https://github.com/sampsaol/ot-harjoitustyo/blob/b9cbd1449272c7199f55b92a3e5d61c5af15f5c6/dokumentaatio/changelog.md)
 
-### Muuta
-Lisäkommenttina kiireiden vuoksi en ehtinyt tällä viikolla toteuttamaan sovellukselle Unittestejä tai Invoke-tehtäviä, pahoittelut lisään ne ensiviikon tehtävien lisäksi ensiviikon deadlineen mennessä.
+
