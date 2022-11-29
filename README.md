@@ -53,10 +53,10 @@ poetry run invoke lint
 ```
 
 ### Dokumentaatio
-[Työaikakirjanpito](https://github.com/sampsaol/ot-harjoitustyo/blob/7494ab5213f6d2eb892a2f86868066a86a321603/dokumentaatio/tyoaikakirjanpito.md)
+[Työaikakirjanpito](https://github.com/sampsaol/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)
 
-[Vaatimusmäärittely](https://github.com/sampsaol/ot-harjoitustyo/blob/7494ab5213f6d2eb892a2f86868066a86a321603/dokumentaatio/vaatimusmaarittely.md)
+[Vaatimusmäärittely](https://github.com/sampsaol/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
-[Changelog](https://github.com/sampsaol/ot-harjoitustyo/blob/b9cbd1449272c7199f55b92a3e5d61c5af15f5c6/dokumentaatio/changelog.md)
+[Changelog](https://github.com/sampsaol/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
-[Arkkitehtuuri](https://github.com/sampsaol/ot-harjoitustyo/blob/db94bb39932c8a92c3abb49eeeaa93c7dd167012/dokumentaatio/arkkitehtuuri.md)
+[Arkkitehtuuri](https://github.com/sampsaol/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
