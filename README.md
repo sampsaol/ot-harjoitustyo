@@ -40,6 +40,18 @@ poetry run invoke test
 poetry run invoke coverage-report
 ```
 
+- Koodin formatointi
+
+```bash
+poetry run invoke format
+```
+
+- Pylintin suoritus
+
+```bash
+poetry run invoke lint
+```
+
 ### Dokumentaatio
 [Työaikakirjanpito](https://github.com/sampsaol/ot-harjoitustyo/blob/7494ab5213f6d2eb892a2f86868066a86a321603/dokumentaatio/tyoaikakirjanpito.md)
 
