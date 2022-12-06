@@ -3,10 +3,11 @@ from services.character_service import CharacterService
 
 class PrintGeneratedCommand:
     def __init__(self, character: CharacterService):
-        self._list = character.list_generated_characters()
+        self._service = character
 
     def run(self):
-        for i in self._list:
+        retlist = self._service.list_generated_characters()
+        for i in retlist:
             print(
                 f"Your race will be {i[0]} and your class will be {i[1]}. Your primary questline is {i[2]}")
-        return self._list
+        return retlist
