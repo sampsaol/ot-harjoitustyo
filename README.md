@@ -26,6 +26,7 @@ poetry run invoke start
 1: generoi pelihahmon
 2: tulostaa kaikki generoidut pelihahmot
 3: valitse generoiduista pelihahmoista, mille haluat tulostaa ohjeistuksen
+4: poistaa kaikki tallennetut generoidut hahmot
 ```
 
 ## Muuta toiminnallisuutta
