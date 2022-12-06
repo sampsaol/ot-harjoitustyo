@@ -25,6 +25,7 @@ poetry run invoke start
 0: keskeyttää ohjelman suorituksen
 1: generoi pelihahmon
 2: tulostaa kaikki generoidut pelihahmot
+3: valitse generoiduista pelihahmoista, mille haluat tulostaa ohjeistuksen
 ```
 
 ## Muuta toiminnallisuutta
