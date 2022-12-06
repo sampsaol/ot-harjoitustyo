@@ -5,6 +5,7 @@ from services.character_service import CharacterService
 class TestCharacterService(unittest.TestCase):
     def setUp(self):
         self.character = CharacterService()
+        self.character.repository.delete_all()
         self.racelist = ["Altmer / High Elf", "Argonian", "Bosmer / Wood Elf",
                          "Breton", "Dunmer / Dark Elf", "Imperial", "Khajiit", "Nord",
                          "Orsimer / Orc", "Redguard"]

@@ -1,5 +1,6 @@
 from services.character_service import CharacterService
 
+
 class DeleteAllCommand:
     def __init__(self, character: CharacterService):
         self._character = character

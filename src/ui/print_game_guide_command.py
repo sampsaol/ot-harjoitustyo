@@ -22,7 +22,7 @@ class PrintGameGuideCommand:
                 break
             elif key in allowed_keys:
                 character = self._service.repository.find_by_line(key)
-                guide = Guide(character[1],character[2])
+                guide = Guide(character[1], character[2])
                 generated_guide = guide.generate_guide()
             else:
                 self._io.printout("False input!")

@@ -1,6 +1,7 @@
 from pathlib import Path
 from config import data_file_path
 
+
 class CSRepository:
     def __init__(self, file_path):
         self._file_path = file_path
@@ -49,5 +50,6 @@ class CSRepository:
                 quest = character[2]
                 row = f"{race};{playclass};{quest}"
                 file.write(row+"\n")
+
 
 character_service_repository = CSRepository(data_file_path)

@@ -3,6 +3,7 @@ from ui.print_generated_command import PrintGeneratedCommand
 from ui.print_game_guide_command import PrintGameGuideCommand
 from ui.delete_all_command import DeleteAllCommand
 
+
 class UserInterface:
     # A class made for the UI of the program which still for now is text-based
     def __init__(self, io, service):
