@@ -1,4 +1,3 @@
-from services.character_service import CharacterService
 from ui.generate_class_command import GenerateClassCommand
 from ui.print_generated_command import PrintGeneratedCommand
 from ui.print_game_guide_command import PrintGameGuideCommand

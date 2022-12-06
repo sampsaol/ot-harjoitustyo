@@ -31,6 +31,6 @@ class PrintGameGuideCommand:
             print(
                 f"{int(key)}: Your race will be {self._list[int(key)-1][0]} and your class will be {self._list[int(key)-1][1]}. Your primary questline is {self._list[int(key)-1][2]}\n")
             print(
-                f"You should primaly level {generated_guide[0]} skill and secondarily level {generated_guide[1]} skill. Your questline starts at {generated_guide[2]}\n")
+                f"You should primaly level the {generated_guide[0]} skill(s) and secondarily level the {generated_guide[1]} skill(s). Your questline starts at {generated_guide[2]}\n")
             print("Commands:\n0 quit\n1 generate a playthrough\n2 print all generated playthroughs\n3 generate a guide for a character\n")
             return generated_guide
