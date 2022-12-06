@@ -10,6 +10,7 @@ class CSRepository:
 
     def find_by_line(self, line):
         characters = self.find_all()
+        line = int(line)
         line -= 1
         return characters[line]
 

@@ -22,7 +22,6 @@ class CharacterService:
     def list_generated_characters(self):
         # Function that returns a list of generated characters
         characters = self.repository.find_all()
-        self.repository._write(characters)
         return characters
 
     def delete_listed_characters(self):
