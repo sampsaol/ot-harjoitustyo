@@ -3,9 +3,9 @@ from services.character_service import CharacterService
 
 
 class PrintGameGuideCommand:
-    def __init__(self, io, character):
+    def __init__(self, io, service: CharacterService):
         self._io = io
-        self._list = character.list_generated_characters()
+        self._service = service
 
     def run(self):
         guidetext = f"Choose which character you want a guide for, 0 will return to main menu:\n"
@@ -21,7 +21,7 @@ class PrintGameGuideCommand:
                 break
             elif key in allowed_keys:
                 guide = Guide(
-                    self._list[int(key)-1][1], self._list[int(key)-1][2])
+                    self._service.repository.find_by_line(key))
                 generated_guide = guide.generate_guide()
             else:
                 self._io.printout("False input!")

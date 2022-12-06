@@ -1,7 +1,7 @@
 from ui.generate_class_command import GenerateClassCommand
 from ui.print_generated_command import PrintGeneratedCommand
 from ui.print_game_guide_command import PrintGameGuideCommand
-
+from ui.delete_all_command import DeleteAllCommand
 
 class UserInterface:
     # A class made for the UI of the program which still for now is text-based
@@ -9,7 +9,7 @@ class UserInterface:
         # The constructor that takes an Input-Output class and a character-service class as arguments
 
         # Guide text for commands
-        self._guide_text = "Commands:\n0 quit\n1 generate a playthrough\n2 print all generated playthroughs\n3 generate a guide for a character\n"
+        self._guide_text = "Commands:\n0 quit\n1 generate a playthrough\n2 print all generated playthroughs\n3 generate a guide for a character\n4 delete generated characters\n"
 
         # Variable for Input-Output
         self._io = io
@@ -20,7 +20,8 @@ class UserInterface:
             "0": "Stop",
             "1": GenerateClassCommand(self._service),
             "2": PrintGeneratedCommand(self._service),
-            "3": PrintGameGuideCommand(self._io, self._service)
+            "3": PrintGameGuideCommand(self._io, self._service),
+            "4": DeleteAllCommand(self._service)
         }
 
     def start(self):
