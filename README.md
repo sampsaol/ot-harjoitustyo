@@ -61,3 +61,5 @@ poetry run invoke lint
 [Changelog](https://github.com/sampsaol/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
 [Arkkitehtuuri](https://github.com/sampsaol/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
+
+[Viimeisin release](https://github.com/sampsaol/ot-harjoitustyo/releases/tag/viikko5)
