@@ -17,3 +17,8 @@
 - Muutettu sovelluksen UI luokka paremmaksi ja erilliseksi sovelluslogiikasta
 - Lisätty toiminnallisuus käyttäjälle
   - Guide eli käyttäjä voi pyytää sovellukselta neuvoja, että mitä taitoja hänen tulisi ensin kehittää ja missä hänen "questline" alkaa
+
+## Viikko 5
+- Lisätty tiedostoon tallennusmahdollisuus
+- Koodissa vielä paljon kehitettävää
+- Ohjelma toimii vaihtelevasti
