@@ -1,5 +1,5 @@
 import unittest
-from quests import Quests
+from generators.quests import Quests
 
 
 class TestQuests(unittest.TestCase):

@@ -1,5 +1,5 @@
 import unittest
-from races import Races
+from generators.races import Races
 
 
 class TestRaces(unittest.TestCase):

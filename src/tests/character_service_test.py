@@ -1,5 +1,5 @@
 import unittest
-from character_service import CharacterService
+from services.character_service import CharacterService
 
 
 class TestCharacterService(unittest.TestCase):

@@ -1,4 +1,4 @@
-from character_service import CharacterService
+from services.character_service import CharacterService
 
 
 class PrintGeneratedCommand:
@@ -8,5 +8,5 @@ class PrintGeneratedCommand:
     def run(self):
         for i in self._list:
             print(
-                f"Your race will be {i[0]} and your class will be {i[1]}. Your primary questline is {i[2]}")
+                f"Your race will be {i[0]} and your class will be {i[1]}. Your primary questline is to seek dick in {i[2]}")
         return self._list

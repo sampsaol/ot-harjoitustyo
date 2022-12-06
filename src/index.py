@@ -1,6 +1,6 @@
 from ui.ui import UserInterface
 from command_io import ConsoleIO
-from character_service import CharacterService
+from services.character_service import CharacterService
 
 
 def main():

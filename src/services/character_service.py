@@ -1,6 +1,6 @@
-from classes import Classes
-from quests import Quests
-from races import Races
+from generators.classes import Classes
+from generators.quests import Quests
+from generators.races import Races
 
 
 class CharacterService:

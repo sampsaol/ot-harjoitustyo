@@ -1,5 +1,5 @@
 import unittest
-from classes import Classes
+from generators.classes import Classes
 
 
 class TestClasses(unittest.TestCase):
