@@ -1,14 +1,23 @@
 class Quests:
-    # A class that generates which questline the player should do based on the players class
+    """A class for generating the primary questline that the player should do first based on their
+    playstyle
+    """
     def __init__(self, generated_class):
-        # The constructor where the questlines are defined
-        #  and which takes the class that was generated as one argument
+        """The constructor of the class where the questlines are defined
+
+        Args:
+            generated_class (_str_): the playstyle that the character uses
+        """
         self._questlines = ["Dark Brotherhood", "The Companions",
                             "The Thieves Guild", "The College of Winterhold"]
         self._class = generated_class
 
     def primary_questline(self):
-        # A function that uses the generated class to choose which questline should be done
+        """A function that chooses the primary questline
+
+        Returns:
+            _str_: returns the primary questline
+        """
         if self._class in ["Two-Handed Warrior", "One-Handed Warrior", "Berserker"]:
             retval = self._questlines[1]
         elif self._class in ["Assassin", "Night Blade"]:

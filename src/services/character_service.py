@@ -5,13 +5,19 @@ from repositories.character_service_repository import character_service_reposito
 
 
 class CharacterService:
-    # A class that generates pseudorandom playable characters for the player
-    # The class also upholds a list of the generated characters
+    """A class for generating random characters for the user
+    """
     def __init__(self):
+        """The constructor where the repository is chosen for saving characters
+        """
         self.repository = default_repository
 
     def generate_character(self):
-        # Function that generates the character
+        """Function for generating characters. Uses modules from the generator directory
+
+        Returns:
+            _double_: returns a double that has the characters race, class and primary questline
+        """
         race = Races().generate_race()
         playclass = Classes().generate_class()
         quest = Quests(playclass).primary_questline()
@@ -20,9 +26,15 @@ class CharacterService:
         return (character)
 
     def list_generated_characters(self):
-        # Function that returns a list of generated characters
+        """A function for returning a list of all the generated characters.
+
+        Returns:
+            _list_: returns a list of all the generated characters
+        """
         characters = self.repository.find_all()
         return characters
 
     def delete_listed_characters(self):
+        """A function for deleting all of the generated characters
+        """
         self.repository.delete_all()

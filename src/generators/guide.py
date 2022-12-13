@@ -1,8 +1,13 @@
 class Guide:
-    # A class that generates a guide based on the class that the player is using
-    # as well as the location where to start the questline
+    """A class for generating a guide for the player based on the playstyle he is using and the questline he is doing
+    """
     def __init__(self, playclass, quest):
-        # constructor where all the major skills that the player should level are listed
+        """A constructor where the major skills the player should level are defined
+
+        Args:
+            playclass (_str_): the playstyle that the character uses
+            quest (_str_): the questline the character is supposed to do first
+        """
         self._armorlist = ["Light Armor", "Heavy Armor"]
         self._attacklist = ["One-Handed", "Two-Handed",
                             "Destruction", "Archery", "Block"]
@@ -11,7 +16,14 @@ class Guide:
         self._quest = quest
 
     def generate_guide(self):
-        # Function for generating guides in the form of primary/secondary skills for the class
+        """A function for generating the guide for the character. The major skills
+        that the player should first level are based on the playstyle he is using. 
+        The function also adds to the guide the startpoint where the players questline starts.
+
+        Returns:
+            _list_: a list that consists of the major skills that should be leveled and the startpoint of the
+            characters questline
+        """
         if self._playclass == "Two-Handed Warrior":
             retlist = [self._attacklist[1], self._armorlist[1]]
         elif self._playclass == "One-Handed Warrior":
@@ -26,7 +38,7 @@ class Guide:
             retlist = [self._attacklist[0], self._armorlist[1]]
         else:
             retlist = ["Illusion- and One-Handed", self._misclist[0]]
-    # Part of the function where the starting point of the questline is defined
+
         if self._quest == "The College of Winterhold":
             retlist.append("Winterhold")
         elif self._quest == "The Companions":
