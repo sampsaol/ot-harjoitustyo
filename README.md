@@ -65,4 +65,3 @@ poetry run invoke lint
 
 [Viimeisin release](https://github.com/sampsaol/ot-harjoitustyo/releases/tag/Viikko6)
 
-[Toimiva release](https://github.com/sampsaol/ot-harjoitustyo/releases/tag/viikko5.2)
