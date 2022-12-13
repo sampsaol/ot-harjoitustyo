@@ -4,6 +4,7 @@ from services.character_service import CharacterService
 class GenerateClassCommand:
     """A UI class for generating characters
     """
+
     def __init__(self, character: CharacterService):
         """The constructor of the class 
 

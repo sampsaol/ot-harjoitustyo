@@ -4,6 +4,7 @@ from services.character_service import CharacterService
 class PrintGeneratedCommand:
     """A UI class for printing out all the previously generated characters
     """
+
     def __init__(self, character: CharacterService):
         """The constructor of the class
 

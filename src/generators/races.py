@@ -4,6 +4,7 @@ from random import randint
 class Races:
     """A class that pseudorandomly chooses the race that the player should pick
     """
+
     def __init__(self):
         """The constructor where the playable races are defined and a race is randomly chosen
         """

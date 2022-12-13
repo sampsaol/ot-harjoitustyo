@@ -1,12 +1,13 @@
 from generators.classes import Classes
 from generators.quests import Quests
 from generators.races import Races
-from repositories.character_service_repository import character_service_repository as default_repository
-
+from repositories.character_service_repository import \
+    character_service_repository as default_repository
 
 class CharacterService:
     """A class for generating random characters for the user
     """
+
     def __init__(self):
         """The constructor where the repository is chosen for saving characters
         """
@@ -23,7 +24,7 @@ class CharacterService:
         quest = Quests(playclass).primary_questline()
         character = (race, playclass, quest)
         self.repository.add_character(character)
-        return (character)
+        return character
 
     def list_generated_characters(self):
         """A function for returning a list of all the generated characters.

@@ -5,6 +5,7 @@ from services.character_service import CharacterService
 class PrintGameGuideCommand:
     """A UI class for generating playthrough guides for characters
     """
+
     def __init__(self, io, service: CharacterService):
         """The constructor where the used IO and CharacterService is defined
 
@@ -22,7 +23,7 @@ class PrintGameGuideCommand:
         """The run function for generating a playthrough guide. The function asks for user input where the user chooses
         the character he wants a gameguide for. A double for the playthrough guide is then generated in the Guide class
         and this UI function prints the guide for the user to see.
-        
+
         Returns:
             _double_: returns a double that is generated in the Guide class if there is further need for it.
         """

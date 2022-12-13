@@ -6,7 +6,7 @@ class Classes:
     """
 
     def __init__(self):
-        """The constructor of the class where the playable playstyles are defined and the 
+        """The constructor of the class where the playable playstyles are defined and the
         random class is chosen from the list
         """
         self._classes = ["Two-Handed Warrior", "Battlemage", "One-Handed Warrior",

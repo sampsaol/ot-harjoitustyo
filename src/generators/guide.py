@@ -1,6 +1,8 @@
 class Guide:
-    """A class for generating a guide for the player based on the playstyle he is using and the questline he is doing
+    """A class for generating a guide for the player
+    based on the playstyle he is using and the questline he is doing
     """
+
     def __init__(self, playclass, quest):
         """A constructor where the major skills the player should level are defined
 
@@ -17,12 +19,12 @@ class Guide:
 
     def generate_guide(self):
         """A function for generating the guide for the character. The major skills
-        that the player should first level are based on the playstyle he is using. 
+        that the player should first level are based on the playstyle he is using.
         The function also adds to the guide the startpoint where the players questline starts.
 
         Returns:
-            _list_: a list that consists of the major skills that should be leveled and the startpoint of the
-            characters questline
+            _list_: a list that consists of the major skills that
+            should be leveled and the startpoint of the characters questline
         """
         if self._playclass == "Two-Handed Warrior":
             retlist = [self._attacklist[1], self._armorlist[1]]

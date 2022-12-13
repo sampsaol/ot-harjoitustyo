@@ -7,6 +7,7 @@ from ui.delete_all_command import DeleteAllCommand
 class UserInterface:
     """A class for the UI which for now at least is text based
     """
+
     def __init__(self, io, service):
         """The constructor that creates the UI
 

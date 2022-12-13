@@ -2,6 +2,7 @@ class Quests:
     """A class for generating the primary questline that the player should do first based on their
     playstyle
     """
+
     def __init__(self, generated_class):
         """The constructor of the class where the questlines are defined
 
