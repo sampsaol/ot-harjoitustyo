@@ -22,3 +22,8 @@
 - Lisätty tiedostoon tallennusmahdollisuus
 - Koodissa vielä paljon kehitettävää
 - Ohjelma toimii vaihtelevasti
+
+## Viikko 6
+- Parannettu testikattavuutta
+- Muutettu koodin sisäinen dokumentaatio docstring muotoon
+- Korjattu pylint rakennetta
