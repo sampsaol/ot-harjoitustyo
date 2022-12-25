@@ -67,7 +67,7 @@ ui->>-user: "Your race will be {race} and your class will be {class}. Your prima
 ```
 Yllä esimerkki sekvenssikaaviosta, kun sovellukselle annetaan käyttöliittymän kautta komento 1 eli generoidaan uusi hahmo. Sovellus siis generoi character_service luokan metodilla `generate_character()` uuden hahmon, tallentaa sen character_service_repository luokan avulla tiedostoon ja käyttöliittymä tulostaa käyttäjälle tiedot tästä generoidusta hahmosta. 
 
-Muita toiminnallisuuksia on komento 2., jossa character_service luokan metodin `list_generated_characters()` avulla luodaan lista generoiduista hahmoista. `list_generated_characters` metodi käyttää character_service_repository luokkaa, joka muuntaa tiedoston riveistä listan, johon tulee generoidut hahmot. Tämä lista sitten tulostetaan käyttäjälle.
+Muita toiminnallisuuksia ovat esimerkiksi komento 2., jossa character_service luokan metodin `list_generated_characters()` avulla luodaan lista generoiduista hahmoista. `list_generated_characters` metodi käyttää character_service_repository luokkaa, joka muuntaa tiedoston riveistä listan, johon tulee generoidut hahmot. Tämä lista sitten tulostetaan käyttäjälle.
 
 3 komento hakee 2 komennon lailla halutun listan, mutta siinä käytetään UI hakemiston print_game_guide_command luokkaa, johon haetaan lista generoiduista hahmoista ja käyttäjä valitsee mille hahmolle listasta hän haluaa neuvoja, jonka jälkeen käyttäjälle tulostetaan tarkempia tietoja hahmon toiminnasta.
 
